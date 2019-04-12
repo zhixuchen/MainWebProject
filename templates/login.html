@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+</head>
+<body>
+<form class="form-horizontal" action="/B" method="post">
+    <ul class="ng-scope">
+        <li class="pull-left"><input
+                class="eo-input ng-not-empty ng-dirty ng-valid-parse ng-valid ng-valid-required ng-touched"
+                name="username" type="text" placeholder="Account" required="" autofocus=""></li>
+        <li class="pull-left" style="position:relative">
+            <input
+                    class="eo-input ng-scope ng-not-empty ng-dirty ng-valid-parse ng-valid ng-valid-required ng-touched"
+                    name="password" type="password" placeholder="Password" required=""
+                    id="password">
+            <span class="icon-style"><a class="iconfont icon-attentionfill" id="pwd-icon"
+                                        onclick="hideShowPsw()"></a></span></li>
+        <li>
+            <button class="ng-binding eo-button-success">登录<span
+                    class="iconfont icon-xiangyou pull-right"></span></button>
+        </li>
+
+    </ul>
+    {% csrf_token %}
+</form>
+</body>
+</html>
