@@ -2,8 +2,11 @@ from django.test import TestCase
 
 # Create your tests here.
 
-str="certificate"
-res={"certificate":"371401199209048018"}
-if str in res:
-    print(res)
-    print(121)
+from MainWebProject import function
+
+sql = "SELECT id,`apiname`,apiurl,apimethod,apiparamvalue,apiresult,`apistatus` from apitest_apistep where apitest_apistep.Apitest_id = 1 "
+mysql=function.mysql()
+mysql.exe_cute(sql)
+mysql.conect_close()
+a=mysql.result
+print(a)

@@ -12,6 +12,7 @@ import urllib  # ,
 
 import pymysql
 import requests
+from MainWebProject import function
 
 
 
@@ -23,19 +24,15 @@ HOSTNAME = '127.0.0.1'
 
 def test(test_id):
     sql = "SELECT id,`apiname`,apiurl,apimethod,apiparamvalue,apiresult ,`apistatus` FROM apitest_apis where apitest_apis.id="+str(test_id)+"; "
-    coon = pymysql.connect(user='root', passwd='lrwanche.com', db='TestCenter', port=3306,
-                           host='baota.beta.lrwanche.com', charset='utf8')
-    cursor = coon.cursor()
-    aa = cursor.execute(sql)
-    info = cursor.fetchmany(aa)
+    mysql = function.mysql()
+    mysql.exe_cute(sql)
+    info=mysql.result
     for ii in info:
         case_list = []
         case_list.append(ii)
     # CredentialId()
     interfaceTest(case_list)
-    coon.commit()
-    cursor.close()
-    coon.close()
+    mysql.conect_close()
 
 
 def interfaceTest(case_list):
@@ -203,13 +200,9 @@ def writeResult(case_id, result):
     sql = "UPDATE apitest_apis set apitest_apis.apistatus=%s,apitest_apis.create_time=%s where apitest_apis.id = %s;"
     param = (result, now, case_id)
     print('api autotest result is ' + result.decode())
-    coon = pymysql.connect(user='root', passwd='lrwanche.com', db='TestCenter', port=3306,
-                           host='baota.beta.lrwanche.com', charset='utf8')
-    cursor = coon.cursor()
-    cursor.execute(sql, param)
-    coon.commit()
-    cursor.close()
-    coon.close()
+    mysql = function.mysql()
+    mysql.exe_cute(sql,param)
+    mysql.conect_close()
 
 
 def caseWriteResult(case_id, result):
@@ -218,13 +211,9 @@ def caseWriteResult(case_id, result):
     sql = "UPDATE apitest_apitest set apitest_apitest.apitestresult=%s,apitest_apitest.create_time=%s where apitest_apitest.id = % s; "
     param = (result, now, case_id)
     print('api autotest result is ' + result.decode())
-    coon = pymysql.connect(user='root', passwd='lrwanche.com', db='TestCenter', port=3306,
-                           host='baota.beta.lrwanche.com', charset='utf8')
-    cursor = coon.cursor()
-    cursor.execute(sql, param)
-    coon.commit()
-    cursor.close()
-    coon.close()
+    mysql = function.mysql()
+    mysql.exe_cute(sql, param)
+    mysql.conect_close()
 
 
 def writeBug(bug_id, interface_name, request, response, res_check):
@@ -237,10 +226,6 @@ def writeBug(bug_id, interface_name, request, response, res_check):
     print(bugdetail)
     sql = "INSERT INTO `bug_bug` (`bugname`,`bugdetail`,`bugstatus`,`buglevel`, `bugcreater`,`bugassign`, `created_time`, `Product_id`) VALUES ('%s', '%s', '1', '1', '邹辉', '邹辉', '%s','2');" % (
         bugname, pymysql.escape_string(bugdetail), now)
-    coon = pymysql.connect(user='root', passwd='test123456', db='autotest', port=3306, host='127.0.0.1',
-                           charset='utf8 ')
-    cursor = coon.cursor()
-    cursor.execute(sql)
-    coon.commit()
-    cursor.close()
-    coon.close()
+    mysql = function.mysql()
+    mysql.exe_cute(sql)
+    mysql.conect_close()

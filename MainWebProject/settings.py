@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+from MainWebProject import function
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -94,11 +95,11 @@ WSGI_APPLICATION = 'MainWebProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'TestCenter',
-        'USER': 'root',
-        'PASSWORD': 'lrwanche.com',
-        'HOST': 'baota.lrwanche.com',
-        'PORT': '3306',
+        'NAME': function.get_config("database","db"),
+        'USER': function.get_config("database","user"),
+        'PASSWORD': function.get_config("database","passwd"),
+        'HOST': function.get_config("database","host"),
+        'PORT': function.get_config("database","port"),
     }
 }
 

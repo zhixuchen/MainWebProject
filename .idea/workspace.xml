@@ -5,262 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef22e724-5dcf-46cb-9c4b-c6a1e316a170" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MainWebProject/HTMLTestRunner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainWebProject/autoreport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainWebProject/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainWebProject/function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T_App/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T_App/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T_App/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T_App/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T_App/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T_App/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T_App/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T_App/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCenter.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apitest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apitest/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apitest/apitestreport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apitest/apitestviews.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apitest/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apitest/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apitest/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apitest/report.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apitest/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apptest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apptest/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apptest/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apptest/apptestviews.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apptest/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apptest/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apptest/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autotest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autotest/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autotest/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autotest/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autotest/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autotest/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autotest/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bug/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bug/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bug/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bug/bugviews.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bug/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bug/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bug/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/proviews.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/set/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/set/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/set/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/set/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/set/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/set/setviews.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/set/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/responsive_rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-viewlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/cancel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/change_form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/popup_response.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/font/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/font/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/font/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/font/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/images/autoGeneration_intro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/images/db_upload_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/images/eolinker_sim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/images/eolinker_sim_w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/images/export_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/images/logo_admin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/images/upload_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/office/statusCode_Import.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/TestCenter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/apidel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/apis_manage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/apistep_manage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/apitest_manage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/appcase_manage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/appcasestep_manage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bug_manage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/left.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/product_manage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/set_manage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/set_user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webcase_manage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webcasestep_manage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webtest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webtest/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webtest/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webtest/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webtest/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webtest/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webtest/webauto_testcase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webtest/webtestviews.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/reportviews.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_App/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/A_App/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D_App/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/D_App/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWebProject/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainWebProject/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainWebProject/autoreport.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainWebProject/autoreport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainWebProject/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainWebProject/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainWebProject/function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainWebProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainWebProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWebProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainWebProject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWebProject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainWebProject/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCenter.ini" beforeDir="false" afterPath="$PROJECT_DIR$/TestCenter.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apitest/apitestreport.py" beforeDir="false" afterPath="$PROJECT_DIR$/apitest/apitestreport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apitest/apitestviews.py" beforeDir="false" afterPath="$PROJECT_DIR$/apitest/apitestviews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apitest/report.py" beforeDir="false" afterPath="$PROJECT_DIR$/apitest/report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/center/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/center/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webtest/webauto_testcase.py" beforeDir="false" afterPath="$PROJECT_DIR$/webtest/webauto_testcase.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -279,16 +41,17 @@
     <SUITE FILE_PATH="coverage/MainWebProject$Unittests_for_report_ApiFlow_test_case.coverage" NAME="Unittests for report.ApiFlow.test_case Coverage Results" MODIFIED="1557204130843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apitest" />
     <SUITE FILE_PATH="coverage/MainWebProject$views.coverage" NAME="views Coverage Results" MODIFIED="1555404168544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/T_App" />
     <SUITE FILE_PATH="coverage/FirstWebDemo$views__1_.coverage" NAME="views (1) Coverage Results" MODIFIED="1554970216481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/C_App" />
-    <SUITE FILE_PATH="coverage/MainWebProject$Unittests_in_autoreport_py.coverage" NAME="Unittests in autoreport.py Coverage Results" MODIFIED="1557194438285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MainWebProject" />
+    <SUITE FILE_PATH="coverage/MainWebProject$Unittests_in_autoreport_py.coverage" NAME="Unittests in autoreport.py Coverage Results" MODIFIED="1557223228591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MainWebProject" />
     <SUITE FILE_PATH="coverage/MainWebProject$Unittests_for_report_ApiFlow.coverage" NAME="Unittests for report.ApiFlow Coverage Results" MODIFIED="1557204448591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apitest" />
     <SUITE FILE_PATH="coverage/MainWebProject$views__3_.coverage" NAME="views (3) Coverage Results" MODIFIED="1555295518047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_App" />
     <SUITE FILE_PATH="coverage/MainWebProject$settings.coverage" NAME="settings Coverage Results" MODIFIED="1557044412301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MainWebProject" />
+    <SUITE FILE_PATH="coverage/MainWebProject$Unittests_for_autoreport_ApiFlow_test_readSQLcase.coverage" NAME="Unittests for autoreport.ApiFlow.test_readSQLcase Coverage Results" MODIFIED="1557223265446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MainWebProject" />
     <SUITE FILE_PATH="coverage/MainWebProject$Unittests_in_report_py.coverage" NAME="Unittests in report.py Coverage Results" MODIFIED="1557205223795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apitest" />
     <SUITE FILE_PATH="coverage/FirstWebDemo$views__2_.coverage" NAME="views (2) Coverage Results" MODIFIED="1554975087012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_App" />
-    <SUITE FILE_PATH="coverage/MainWebProject$apitestreport.coverage" NAME="apitestreport Coverage Results" MODIFIED="1557205878409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apitest" />
-    <SUITE FILE_PATH="coverage/MainWebProject$run.coverage" NAME="run Coverage Results" MODIFIED="1557220592785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MainWebProject$apitestreport.coverage" NAME="apitestreport Coverage Results" MODIFIED="1557223667406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apitest" />
+    <SUITE FILE_PATH="coverage/MainWebProject$run.coverage" NAME="run Coverage Results" MODIFIED="1557223260039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MainWebProject$Unittests_in_apitestreport_py.coverage" NAME="Unittests in apitestreport.py Coverage Results" MODIFIED="1557199930024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apitest" />
-    <SUITE FILE_PATH="coverage/MainWebProject$tests.coverage" NAME="tests Coverage Results" MODIFIED="1557205077395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/center" />
+    <SUITE FILE_PATH="coverage/MainWebProject$tests.coverage" NAME="tests Coverage Results" MODIFIED="1557224016021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/center" />
     <SUITE FILE_PATH="coverage/FirstWebDemo$views.coverage" NAME="views Coverage Results" MODIFIED="1554882545975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FirstApp" />
     <SUITE FILE_PATH="coverage/MainWebProject$apiauto_testcase3.coverage" NAME="apiauto_testcase3 Coverage Results" MODIFIED="1557107271555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MainWebProject" />
   </component>
@@ -377,27 +140,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="1" />
-          <entry key="conf" value="1" />
+          <entry key="conf" value="4" />
           <entry key="css" value="24" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="html" value="236" />
-          <entry key="ini" value="10" />
+          <entry key="ini" value="15" />
           <entry key="js" value="14" />
-          <entry key="py" value="222" />
+          <entry key="py" value="260" />
           <entry key="rnc" value="1" />
           <entry key="svg" value="20" />
           <entry key="ts" value="1" />
-          <entry key="txt" value="3" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="24" />
           <entry key="HTML" value="236" />
-          <entry key="Ini" value="10" />
+          <entry key="Ini" value="15" />
           <entry key="JavaScript" value="14" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="222" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="260" />
           <entry key="RNG Compact" value="1" />
           <entry key="SVG" value="20" />
           <entry key="TypeScript" value="1" />
@@ -405,23 +168,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="conf" value="46" />
+          <entry key="conf" value="57" />
           <entry key="css" value="80" />
           <entry key="dummy" value="33" />
           <entry key="html" value="5908" />
-          <entry key="ini" value="190" />
+          <entry key="ini" value="200" />
           <entry key="js" value="282" />
-          <entry key="py" value="2974" />
+          <entry key="py" value="3372" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="80" />
           <entry key="HTML" value="5908" />
-          <entry key="Ini" value="190" />
+          <entry key="Ini" value="200" />
           <entry key="JavaScript" value="282" />
-          <entry key="PLAIN_TEXT" value="79" />
-          <entry key="Python" value="2974" />
+          <entry key="PLAIN_TEXT" value="100" />
+          <entry key="Python" value="3372" />
         </counts>
       </usages-collector>
     </session>
@@ -429,42 +193,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apitest/apitestreport.py">
+        <entry file="file://$PROJECT_DIR$/apitest/report.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="532">
+              <caret line="229" column="22" selection-start-line="229" selection-start-column="22" selection-end-line="229" selection-end-column="22" />
               <folding>
-                <element signature="e#106#134#0" expanded="true" />
+                <element signature="e#108#119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apitest/apitestviews.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+              <folding>
+                <element signature="e#26#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webtest/webauto_testcase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+              <folding>
+                <element signature="e#131#140#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/run.py">
+        <entry file="file://$PROJECT_DIR$/TestCenter.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="304">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apitest/report.py">
+        <entry file="file://$PROJECT_DIR$/MainWebProject/function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="80" column="41" lean-forward="true" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
-              <folding>
-                <element signature="e#108#119#0" expanded="true" />
-                <element signature="e#6189#6244#0" />
-                <element signature="e#6271#6705#0" />
-                <element signature="e#6737#6931#0" />
-                <element signature="e#6959#7135#0" />
-                <element signature="e#7161#7247#0" />
-                <element signature="e#7288#7850#0" />
-                <element signature="e#7895#8475#0" />
-                <element signature="e#8550#9502#0" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -472,16 +249,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/center/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apitest/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -490,12 +259,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apitest/models.py">
+        <entry file="file://$PROJECT_DIR$/apitest/apitestreport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="40" column="97" selection-start-line="40" selection-start-column="97" selection-end-line="40" selection-end-column="97" />
+            <state relative-caret-position="228">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#106#134#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -524,6 +293,9 @@
       <find>apitest_manage</find>
       <find>apis_manage</find>
       <find>apistepsearch</find>
+      <find>baota</find>
+      <find>lrwanche.com</find>
+      <find>lrwanche</find>
     </findStrings>
     <replaceStrings>
       <replace>apidel.result</replace>
@@ -538,20 +310,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apptest/models.py" />
-        <option value="$PROJECT_DIR$/apptest/admin.py" />
         <option value="$PROJECT_DIR$/product/admin.py" />
         <option value="$PROJECT_DIR$/apptest/views.py" />
         <option value="$PROJECT_DIR$/webtest/models.py" />
         <option value="$PROJECT_DIR$/webtest/admin.py" />
-        <option value="$PROJECT_DIR$/settings.conf" />
-        <option value="$PROJECT_DIR$/MainWebProject/config.py" />
         <option value="$PROJECT_DIR$/MainWebProject/apiauto_testcase3.py" />
         <option value="$PROJECT_DIR$/MainWebProject/HTML_TestRunner.py" />
         <option value="$PROJECT_DIR$/set/setviews.py" />
         <option value="$PROJECT_DIR$/apitest/admin.py" />
         <option value="$PROJECT_DIR$/D_App/tests.py" />
-        <option value="$PROJECT_DIR$/MainWebProject/settings.py" />
         <option value="$PROJECT_DIR$/static/js/jquery.min.js" />
         <option value="$PROJECT_DIR$/static/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/product/proviews.py" />
@@ -575,20 +342,25 @@
         <option value="$PROJECT_DIR$/apptest/global_driver.py" />
         <option value="$PROJECT_DIR$/apptest/mod_config.py" />
         <option value="$PROJECT_DIR$/templates/webcase_manage.html" />
-        <option value="$PROJECT_DIR$/webtest/webauto_testcase.py" />
         <option value="$PROJECT_DIR$/apitest/apiautotest.py" />
-        <option value="$PROJECT_DIR$/MainWebProject/autoreport.py" />
         <option value="$PROJECT_DIR$/report/reportviews.py" />
-        <option value="$PROJECT_DIR$/apitest/apitestviews.py" />
         <option value="$PROJECT_DIR$/center/views.py" />
         <option value="$PROJECT_DIR$/MainWebProject/views.py" />
         <option value="$PROJECT_DIR$/MainWebProject/urls.py" />
         <option value="$PROJECT_DIR$/templates/report.html" />
         <option value="$PROJECT_DIR$/apitest/models.py" />
-        <option value="$PROJECT_DIR$/center/tests.py" />
-        <option value="$PROJECT_DIR$/apitest/apitestreport.py" />
-        <option value="$PROJECT_DIR$/apitest/report.py" />
         <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/MainWebProject/config.py" />
+        <option value="$PROJECT_DIR$/settings.conf" />
+        <option value="$PROJECT_DIR$/MainWebProject/settings.py" />
+        <option value="$PROJECT_DIR$/center/tests.py" />
+        <option value="$PROJECT_DIR$/MainWebProject/autoreport.py" />
+        <option value="$PROJECT_DIR$/apitest/report.py" />
+        <option value="$PROJECT_DIR$/apitest/apitestreport.py" />
+        <option value="$PROJECT_DIR$/MainWebProject/function.py" />
+        <option value="$PROJECT_DIR$/apitest/apitestviews.py" />
+        <option value="$PROJECT_DIR$/webtest/webauto_testcase.py" />
+        <option value="$PROJECT_DIR$/TestCenter.ini" />
       </list>
     </option>
   </component>
@@ -617,6 +389,26 @@
           <expand>
             <path>
               <item name="MainWebProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainWebProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainWebProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainWebProject" type="462c0819:PsiDirectoryNode" />
+              <item name="apitest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainWebProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainWebProject" type="462c0819:PsiDirectoryNode" />
+              <item name="autotest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainWebProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainWebProject" type="462c0819:PsiDirectoryNode" />
+              <item name="center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainWebProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainWebProject" type="462c0819:PsiDirectoryNode" />
               <item name="MainWebProject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -667,7 +459,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.tests">
     <configuration name="apitestreport" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MainWebProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -712,7 +504,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python">
       <module name="MainWebProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -757,6 +549,21 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for autoreport.ApiFlow.test_readSQLcase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="MainWebProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MainWebProject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;autoreport.ApiFlow.test_readSQLcase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for report.ApiFlow" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MainWebProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -772,19 +579,19 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for report.ApiFlow.test_case" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in autoreport.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MainWebProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apitest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MainWebProject" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;report.ApiFlow.test_case&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/MainWebProject/autoreport.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in report.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -805,19 +612,20 @@
     <list>
       <item itemvalue="Django server.FirstWebDemo" />
       <item itemvalue="Python.run" />
-      <item itemvalue="Python.apitestreport" />
-      <item itemvalue="Python tests.Unittests for report.ApiFlow.test_case" />
+      <item itemvalue="Python.tests" />
       <item itemvalue="Python tests.Unittests for report.ApiFlow" />
       <item itemvalue="Python tests.Unittests in report.py" />
-      <item itemvalue="Python.tests" />
+      <item itemvalue="Python.apitestreport" />
+      <item itemvalue="Python tests.Unittests in autoreport.py" />
+      <item itemvalue="Python tests.Unittests for autoreport.ApiFlow.test_readSQLcase" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.apitestreport" />
+        <item itemvalue="Python tests.Unittests for autoreport.ApiFlow.test_readSQLcase" />
+        <item itemvalue="Python tests.Unittests in autoreport.py" />
         <item itemvalue="Python tests.Unittests in report.py" />
-        <item itemvalue="Python.tests" />
         <item itemvalue="Python tests.Unittests for report.ApiFlow" />
-        <item itemvalue="Python tests.Unittests for report.ApiFlow.test_case" />
       </list>
     </recent_temporary>
   </component>
@@ -832,15 +640,17 @@
       <option name="presentableId" value="Default" />
       <updated>1554861267007</updated>
     </task>
+    <task id="LOCAL-00001" summary="自动化测试平台">
+      <created>1557220770788</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557220770788</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_report_ApiFlow_test_case - 2019.05.07 at 12h 33m 27s.xml">
-      <configuration name="Unittests for report.ApiFlow.test_case" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_report_ApiFlow - 2019.05.07 at 12h 38m 09s.xml">
-      <configuration name="Unittests for report.ApiFlow" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_report_ApiFlow - 2019.05.07 at 12h 39m 47s.xml">
       <configuration name="Unittests for report.ApiFlow" configurationId="tests" />
     </history-entry>
@@ -864,6 +674,12 @@
     </history-entry>
     <history-entry file="Unittests_in_report_py - 2019.05.07 at 13h 00m 25s.xml">
       <configuration name="Unittests in report.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_autoreport_py - 2019.05.07 at 18h 00m 31s.xml">
+      <configuration name="Unittests in autoreport.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_autoreport_ApiFlow_test_readSQLcase - 2019.05.07 at 18h 01m 07s.xml">
+      <configuration name="Unittests for autoreport.ApiFlow.test_readSQLcase" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -914,6 +730,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="自动化测试平台" />
+    <option name="LAST_COMMIT_MESSAGE" value="自动化测试平台" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -939,12 +759,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/MainWebProject/autoreport.py</url>
-          <line>268</line>
+          <line>259</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/MainWebProject/autoreport.py</url>
-          <line>267</line>
+          <line>258</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="django-line">
@@ -961,78 +781,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/appcasestep_manage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/webcasestep_manage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="55" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/set_manage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="76" column="74" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="392" column="19" selection-start-line="392" selection-start-column="1" selection-end-line="392" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apptest/mod_config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apptest/global_driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#15#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/left.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="94" column="58" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/img/icon-changelink.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/img/icon-calendar.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/img/icon-alert.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/img/icon-addlink.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/img/calendar-icons.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/img/icon-no.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/img/icon-deletelink.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/admin/img/icon-clock.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1079,19 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainWebProject/config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webtest/webauto_testcase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#131#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/report/reportviews.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1106,20 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainWebProject/autoreport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="273" column="67" lean-forward="true" selection-start-line="273" selection-start-column="67" selection-end-line="273" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autotest/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/center/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
@@ -1127,33 +848,6 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainWebProject/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainWebProject/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="49" column="45" lean-forward="true" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
-          <folding>
-            <element signature="e#638#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apitest/apitestviews.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1225,45 +919,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/center/tests.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="95">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apitest/report.py">
+    <entry file="file://$PROJECT_DIR$/D.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWebProject/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="80" column="41" lean-forward="true" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#108#119#0" expanded="true" />
-            <element signature="e#6189#6244#0" />
-            <element signature="e#6271#6705#0" />
-            <element signature="e#6737#6931#0" />
-            <element signature="e#6959#7135#0" />
-            <element signature="e#7161#7247#0" />
-            <element signature="e#7288#7850#0" />
-            <element signature="e#7895#8475#0" />
-            <element signature="e#8550#9502#0" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apitest/apitestreport.py">
+    <entry file="file://$PROJECT_DIR$/MainWebProject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="644">
+          <caret line="49" column="45" lean-forward="true" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
           <folding>
-            <element signature="e#106#134#0" expanded="true" />
+            <element signature="e#638#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="1145" selection-start-line="1145" selection-end-line="1145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autotest/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autotest/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autotest/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autotest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apitest/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autotest/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWebProject/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWebProject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+          <folding>
+            <element signature="e#313#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWebProject/autoreport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4788">
+          <caret line="252" column="22" selection-start-line="252" selection-start-column="22" selection-end-line="252" selection-end-column="22" />
+          <folding>
+            <element signature="e#108#138#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/center/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apitest/report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="229" column="22" selection-start-line="229" selection-start-column="22" selection-end-line="229" selection-end-column="22" />
+          <folding>
+            <element signature="e#108#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apitest/apitestreport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#106#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWebProject/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apitest/apitestviews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding>
+            <element signature="e#26#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webtest/webauto_testcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+          <folding>
+            <element signature="e#131#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCenter.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>

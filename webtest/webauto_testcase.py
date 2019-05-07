@@ -9,10 +9,10 @@ import os
 import time
 import unittest
 import pymysql
-from MainWebProject import config
+from MainWebProject import function
 from selenium import webdriver
 from MainWebProject import HTMLTestRunner
-
+from  MainWebProject import function
 PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p)
 )
@@ -30,32 +30,24 @@ class Search(unittest.TestCase):
 
     def test_readSQLcase1(self):  # 流程的相关接口
         sql = "SELECT id, webfindmethod, webevelement, weboptmethod, webtestdata, webassertdata, `webtestresult` from webtest_webcasestep where webtest_webcasestep.Webcase_id = 1 ORDER BY id ASC "
-        coon = pymysql.connect(user='root', passwd='lrwanche.com', db='TestCenter', port=3306, host=config.getConfig("database", "host"),charset='utf8')
-        cursor = coon.cursor()
-        aa = cursor.execute(sql)
-        info = cursor.fetchmany(aa)
+        mysql=function.mysql()
+        info = mysql.exe_cute(sql)
         for ii in info:
             case_list = []
         case_list.append(ii)
         webtestcase(case_list, self)
-        coon.commit()
-        cursor.close()
-        coon.close()
+        mysql.conect_close()
 
 
 def test_readSQLcase2(self):  # 流程的相关接口
     sql = "SELECT id, webfindmethod, webevelement, weboptmethod, webtestdata, webassertdata, `webtestresult` from webtest_webcasestep where webtest_webcasestep.Webcase_id = 2 ORDER BY id ASC"
-    coon = pymysql.connect(user='root', passwd='test123456', db='autotest', port=3306, host=fconfig.getConfig("database", "host"),charset='utf8')
-    cursor = coon.cursor()
-    aa = cursor.execute(sql)
-    info = cursor.fetchmany(aa)
+    mysql=function.mysql()
+    info = mysql.exe_cute(sql)
     for ii in info:
         case_list = []
     case_list.append(ii)
     webtestcase(case_list, self)
-    coon.commit()
-    cursor.close()
-    coon.close()
+    mysql.conect_close()
 
 
 def tearDown(self):

@@ -4,32 +4,48 @@
 # datetime:2019/4/16 11:13
 # software: PyCharm
 import pymysql,os,configparser,requests,json
-def mysqlconect(sql):  ##数据库操作
-    try:
-        # 打开数据库连接
-        # db = pymysql.connect("47.96.87.38", "chenzx", "123456", "eolinker_os");
-        db_host = get_config("db", "db_host")
-        # db_port = get_config("db", "db_port")
-        db_name = get_config("db", "db_name")
-        db_user = get_config("db", "db_user")
-        db_pass = get_config("db", "db_pass")
-        db = pymysql.connect(db_host, db_user, db_pass, db_name);
 
-        # 使用cursor()方法获取操作游标
-        cursor = db.cursor()
-        # 使用execute方法执行SQL语句
-        a = cursor.execute(sql)
+class mysql():
+    def __init__(self):
+        db_host = get_config("database", "host")
+        db_name = get_config("database", "db")
+        db_user = get_config("database", "user")
+        db_pass = get_config("database", "passwd")
+        self.db=pymysql.connect(db_host, db_user, db_pass, db_name);
+        self.cursor=self.db.cursor()
+    def exe_cute(self,sql,args=None):
+        result= self.cursor.execute(sql,args=None)
         if sql.find("SELECT") >= 0:
-            results = cursor.fetchall()
-        else:
-            results = a
-        db.commit()
-        # 关闭数据库连接
-        db.close()
-        return results
-    except:
-        # 如果发生错误则回滚
-        db.rollback()
+            result = self.cursor.fetchmany()
+        self.result=result
+
+    # def mysqlconect(self,sql):  ##数据库操作
+    #     try:
+    #         # 打开数据库连接
+    #         # db = pymysql.connect("47.96.87.38", "chenzx", "123456", "eolinker_os");
+    #         db_host = get_config("database", "host")
+    #         db_name = get_config("database", "db")
+    #         db_user = get_config("database", "user")
+    #         db_pass = get_config("database", "passwd")
+    #         db = pymysql.connect(db_host, db_user, db_pass, db_name);
+    #         # 使用cursor()方法获取操作游标
+    #         cursor = db.cursor()
+    #         # 使用execute方法执行SQL语句
+    #         a = cursor.execute(sql)
+    #         if sql.find("SELECT") >= 0:
+    #             results = cursor.fetchall()
+    #         else:
+    #             results = a
+    #         db.commit()
+    #         # 关闭数据库连接
+    #         db.close()
+    #         return results
+    #     except:
+    #         # 如果发生错误则回滚
+    #         db.rollback()
+    def conect_close(self):
+        self.db.close()
+
 
 
 def get_config(title,key):

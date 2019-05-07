@@ -15,7 +15,7 @@ import json
 from idlelib.rpc import response_queue
 from time import sleep
 
-# import fconfig
+from MainWebProject import function
 
 HOSTNAME = '127.0.0.1'
 
@@ -28,18 +28,15 @@ class ApiFlow(unittest.TestCase):
 
     def test_readSQLcase(self):
         sql = "SELECT id,`apiname`,apiurl,apimethod,apiparamvalue,apiresult,`apistatus` from apitest_apistep where apitest_apistep.Apitest_id = 1 "
-        coon =pymysql.connect(user='root', passwd='lrwanche.com', db='TestCenter', port=3306, host='baota.beta.lrwanche.com', charset='utf8')
-        cursor = coon.cursor()
-        aa = cursor.execute(sql)
-        info = cursor.fetchmany(aa)
+        mysql = function.mysql()
+        mysql.exe_cute(sql)
+        info = mysql.result
         for ii in info:
             case_list = []
             case_list.append(ii)
         # CredentialId()
         interfaceTest(case_list)
-        coon.commit()
-        cursor.close()
-        coon.close()
+        mysql.conect_close()
 
 
 def tearDown(self):
@@ -225,12 +222,10 @@ def writeResult(case_id, result):
     sql = "UPDATE apitest_apistep set apitest_apistep.apistatus=%s,apitest_apistep.create_time=%s where apitest_apistep.id = % s;"
     param = (result, now, case_id)
     print('api autotest result is ' + result.decode())
-    coon = pymysql.connect(user='root', passwd='lrwanche.com', db='TestCenter', port=3306, host='baota.beta.lrwanche.com', charset='utf8')
-    cursor = coon.cursor()
-    cursor.execute(sql, param)
-    coon.commit()
-    cursor.close()
-    coon.close()
+    mysql = function.mysql()
+    mysql.exe_cute(sql, param)
+    mysql.result
+    mysql.conect_close()
 
 
 def caseWriteResult(case_id, result):
@@ -239,12 +234,10 @@ def caseWriteResult(case_id, result):
     sql = "UPDATE apitest_apitest set apitest_apitest.apitestresult=%s,apitest_apitest.create_time=%s where apitest_apitest.id = % s; "
     param = (result, now, case_id)
     print('api autotest result is ' + result.decode())
-    coon = pymysql.connect(user='root', passwd='lrwanche.com', db='TestCenter', port=3306, host='baota.beta.lrwanche.com', charset='utf8')
-    cursor = coon.cursor()
-    cursor.execute(sql, param)
-    coon.commit()
-    cursor.close()
-    coon.close()
+    mysql = function.mysql()
+    mysql.exe_cute(sql,param)
+    mysql.result
+    mysql.conect_close()
 
 
 def writeBug(bug_id, interface_name, request, response, res_check):
@@ -256,12 +249,10 @@ def writeBug(bug_id, interface_name, request, response, res_check):
     bugdetail = '[请求数据]<br />' + request.decode() + '<br/>' + '[预期结果] < br / > '+res_check.decode()+' < br / > '+' < br / > '+'[响应数据] < br / > '+' < br / > '+response.decode()
     print(bugdetail)
     sql = "INSERT INTO `bug_bug` (`bugname`,`bugdetail`,`bugstatus`,`buglevel`, `bugcreater`,`bugassign`, `created_time`, `Product_id`) VALUES ('%s', '%s', '1', '1', '邹辉', '邹辉', '%s','2');"%(bugname,pymysql.escape_string(bugdetail),now)
-    coon = pymysql.connect(user='root', passwd='test123456', db='autotest', port=3306, host='127.0.0.1', charset='utf8 ')
-    cursor = coon.cursor()
-    cursor.execute(sql)
-    coon.commit()
-    cursor.close()
-    coon.close()
+    mysql = function.mysql()
+    mysql.exe_cute(sql)
+    mysql.result
+    mysql.conect_close()
 
 if __name__ == '__main__':
 
