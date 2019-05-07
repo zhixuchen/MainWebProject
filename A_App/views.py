@@ -45,5 +45,5 @@ def List(request):
     return render(request, 'list.html',data)
 
 # if __name__ == '__main__':
-
+#     List(121)
 

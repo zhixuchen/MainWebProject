@@ -1,29 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <head>
-    <meta charset="UTF-8">
-    <title>测试</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <title>AutotestPlat</title>
+<style> body{text-align:center} </style>
 </head>
 <body>
-<form class="form-horizontal" action="/B" method="post">
-    <ul class="ng-scope">
-        <li class="pull-left"><input
-                class="eo-input ng-not-empty ng-dirty ng-valid-parse ng-valid ng-valid-required ng-touched"
-                name="username" type="text" placeholder="Account" required="" autofocus=""></li>
-        <li class="pull-left" style="position:relative">
-            <input
-                    class="eo-input ng-scope ng-not-empty ng-dirty ng-valid-parse ng-valid ng-valid-required ng-touched"
-                    name="password" type="password" placeholder="Password" required=""
-                    id="password">
-            <span class="icon-style"><a class="iconfont icon-attentionfill" id="pwd-icon"
-                                        onclick="hideShowPsw()"></a></span></li>
-        <li>
-            <button class="ng-binding eo-button-success">登录<span
-                    class="iconfont icon-xiangyou pull-right"></span></button>
-        </li>
-
-    </ul>
-    {% csrf_token %}
+<div>
+<font size="1">
+<h1>《自动化平台测试开发》书</h1>
+</font>
+<form method="post" action="/login/">
+{% csrf_token %}
+<br><a>&nbsp;&nbsp;用户名：</a> <input name="username" type="text" placeholder="admin" >
+<br><br> <a>&nbsp;&nbsp;密 &nbsp;&nbsp; 码：</a> <input name="password" type="password"
+placeholder="123456">
+<br>{{ error }}<br>
+&nbsp; <button style="width:220px;height:28px;" id="submit" type="submit">登 录</button>
 </form>
+</div>
 </body>
 </html>

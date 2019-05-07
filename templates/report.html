@@ -1,0 +1,181 @@
+<head>
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    {% load bootstrap4 %}
+    {% bootstrap_javascript %}
+    {% bootstrap_css %}
+
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css"/>
+    <script type="text/javascript" src="/admin/jsi18n/"></script>
+    <script type="text/javascript" src="/static/admin/js/vendor/jquery/jquery.js"></script>
+    <script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+    <script type="text/javascript" src="/static/admin/js/core.js"></script>
+    <script type="text/javascript" src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+    <script type="text/javascript" src="/static/admin/js/actions.js"></script>
+    <script type="text/javascript" src="/static/admin/js/urlify.js"></script>
+    <script type="text/javascript" src="/static/admin/js/prepopulate.js"></script>
+    <script type="text/javascript" src="/static/admin/js/vendor/xregexp/xregexp.js"></script>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximumscale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/responsive.css"/>
+    <meta name="robots" content="NONE,NOARCHIVE"/>
+
+    <title>产品自动化测试平台</title>
+</head>
+<body role="document">
+
+<!-- 导航栏-->
+<ul class="nav justify-content-center">
+
+</ul>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container">
+        <ul class="nav justify-content-center">
+            <li class="active"><a style='color:white' href="/apitest_report/">单一接口测试报告</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a style='color:white' href="/apisteptest_report/">流程接口测试报告</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="active"><a style='color:white' href="/appcase_manage/">app 用例</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="active"><a style='color:white' href="/webcase_manage/">web 用例</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+        </ul>
+        <ul class="nav justify-content-end">
+            <li>欢迎您，<a href="../admin/">{{ user }}</a></li>
+            <li class="nav-link"><a style='color:white' href="/logout/">退出</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="row" style="padding-top: 55px;">
+    <div class="col-md-11">
+        <table class="table table-striped">
+            <div style="position:absolute; right:10px; width:10px; ">
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>单一接口扫描-自动化测试汇总报告</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>用例总数</th>
+                    <th>{{ apiscounts }}</th>
+                </tr>
+                {# 前端读取定义的变量#}
+                <tr>
+                    <th>通过</th>
+                    <td><a style='color:green'>{{ apis_pass_counts }}</a></td>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>不通过</th>
+                    <td><a style='color:red'>{{ apis_fail_counts }}</a></td>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </div>
+        </table>
+        <!-- 单一接口测试用例-->
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>失败接口列表</th>
+                <td>
+            <tr>
+                <th>ID</th>
+                <th>产品</th>
+                <th>测试用例名称</th>
+                <th>URL 地址</th>
+                <th>参数=值</th>
+                <th>方法</th>
+                <th>预期</th>
+                <th>测试结果</th>
+                <th>执行时间</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for apis in apiss %}
+                <tr>
+                    {% if apis.apistatus == 0 %}
+                        <td>{{ apis.id }}</td>
+                        <td>{{ apis.Product.productname }}</td>
+                        <td>{{ apis.apiname }}</td>
+                        <td>{{ apis.apiurl }}</td>
+                        <td>{{ apis.apiparamvalue }}</td>
+                        <td>{{ apis.apimethod }}</td>
+                        <td>{{ apis.apiresult }}</td>
+                        <td>{% if apis.apistatus == 1 %}
+                            <a style='color:green'>{{ apis.apistatus }}</a>
+                        {% else %}
+                            <a style='color:red'>{{ apis.apistatus }}</a>
+                        {% endif %}
+                        </td>
+                        <td>{{ apis.create_time }}</td>
+                    {% else %}
+                    {% endif %}
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>成功接口列表</th>
+                <td>
+            <tr>
+                <th>ID</th>
+                <th>产品</th>
+                <th>测试用例名称</th>
+                <th>URL 地址</th>
+                <th>参数=值</th>
+                <th>方法</th>
+                <th>预期</th>
+                <th>测试结果</th>
+                <th>执行时间</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for apis in apiss %}
+                <tr>
+                    {% if apis.apistatus == 1 %}
+                        <td>{{ apis.id }}</td>
+                        <td>{{ apis.Product.productname }}</td>
+                        <td>{{ apis.apiname }}</td>
+                        <td>{{ apis.apiurl }}</td>
+                        <td>{{ apis.apiparamvalue }}</td>
+                        <td>{{ apis.apimethod }}</td>
+                        <td>{{ apis.apiresult }}</td>
+                        <td>{% if apis.apistatus == 1 %}
+                            <a style='color:green'>{{ apis.apistatus }}</a>
+                        {% else %}
+                            <a style='color:red'>{{ apis.apistatus }}</a>
+                        {% endif %}
+                        </td>
+                        <td>{{ apis.create_time }}</td>
+                    {% else %}
+                    {% endif %}
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>

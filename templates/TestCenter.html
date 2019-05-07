@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" language="javascript">
+
+
+        function select1_onchange(obj) {
+            var envuri = document.getElementById("envuri");
+            envuri.value = obj.value;
+            var index = envuri.selectedIndex;
+            var nu=document.getElementsByClassName("apiuri");
+            var uri=envuri.options[index].text;
+            for (i=0;i< nu.length;i++)
+            {
+                nu[i].innerHTML=uri;
+            };
+
+        };
+        function look(id) {
+            var envNmae = document.getElementById("envNmae");
+            var index = envNmae.selectedIndex;
+            var envID=envNmae.options[index].value;
+            window.location="/T/apidel?apiID="+id+"&envID="+envID;
+        };
+    </script>
+
+</head>
+<body>
+
+
+<select id="envNmae" name="env" onchange="select1_onchange(this);">
+    {% for env in env_list.result %}
+        <option value={{ env.envID }}>{{ env.envName }}</option>
+    {% endfor %}
+</select>
+<select id="envuri">
+    {% for env in env_list.result %}
+        <option value={{ env.envID }} class="uri">{{ env.uri }}</option>
+    {% endfor %}
+</select>
+
+<input  type="text" value="1212312" disabled="disabled"/>
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#a8c7ce">
+    <tr>
+        <!--列名-->
+        <td width="1.5%" height="20" bgcolor="d3eaef" class="STYLE6">
+            <div align="center"><span class="STYLE10">接口id</span></div>
+        </td>
+        <td width="1.5%" height="20" bgcolor="d3eaef" class="STYLE6">
+            <div align="center"><span class="STYLE10">接口名称</span></div>
+        </td>
+        <td width="3%" height="20" bgcolor="d3eaef" class="STYLE6">
+            <div align="center"><span class="STYLE10">请求方式</span></div>
+        </td>
+        <td width="2%" height="20" bgcolor="d3eaef" class="STYLE6">
+            <div align="center"><span class="STYLE10">请求地址</span></div>
+        </td>
+        <td width="2.5%" height="20" bgcolor="d3eaef" class="STYLE6">
+            <div align="center"><span class="STYLE10">更新时间</span></div>
+        </td>
+        <td width="2.5%" height="20" bgcolor="d3eaef" class="STYLE6">
+            <div align="center"><span class="STYLE10">详情</span></div>
+        </td>
+    </tr>
+    {% for athlete in api_list.result %}
+        <tr>
+            <!--列名-->
+            <td width="1.5%" height="20" bgcolor="d3eaef" class="STYLE6">
+                <div align="center"><span class="STYLE10">{{ athlete.apiID }}</span></div>
+            </td>
+            <td width="1.5%" height="20" bgcolor="d3eaef" class="STYLE6">
+                <div align="center"><span class="STYLE10">{{ athlete.apiName }}</span></div>
+            </td>
+            <td width="3%" height="20" bgcolor="d3eaef" class="STYLE6">
+                <div align="center"><span class="STYLE10">{{ athlete.apiRequestType }}</span></div>
+            </td>
+            <td width="2%" height="20" bgcolor="d3eaef" class="STYLE6">
+                <div align="center"><span class="apiuri"></span><span class="apimethod"  >{{ athlete.apiURI }}</span></div>
+            </td>
+            <td width="2.5%" height="20" bgcolor="d3eaef" class="STYLE6">
+                <div align="center"><span class="STYLE10">{{ athlete.apiUpdateTime }}</span></div>
+            </td>
+            <td width="2.5%" height="20" bgcolor="d3eaef" class="STYLE6">
+                <div align="center"><input type="button" class="chakan"   value="查看" onclick="look({{ athlete.apiID }})"/></div>
+            </td>
+        </tr>
+
+    {% endfor %}
+</body>
+<script>
+
+     var envuri = document.getElementById("envuri");
+     var index = envuri.selectedIndex;
+     var uri=envuri.options[index].text;
+     var nu=document.getElementsByClassName("apiuri");
+     for (i=0;i< nu.length;i++)
+        {
+            nu[i].innerHTML=uri;
+        };
+
+</script>
+</html>

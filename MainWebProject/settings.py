@@ -41,7 +41,16 @@ INSTALLED_APPS = [
     'B_App.apps.BAppConfig',
     'C_App.apps.CAppConfig',
     'D_App.apps.DAppConfig',
+    'T_App.apps.TAppConfig',
+    'product',
+    'apitest',
+    'bug',
+    'set',
+    'apptest',
+    'webtest',
+    'bootstrap4',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -68,6 +77,10 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            # 'libraries': {
+            #     'left': './templatetags.left',
+            #
+            # }
         },
     },
 ]
@@ -80,11 +93,14 @@ WSGI_APPLICATION = 'MainWebProject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'TestCenter',
+        'USER': 'root',
+        'PASSWORD': 'lrwanche.com',
+        'HOST': 'baota.lrwanche.com',
+        'PORT': '3306',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
@@ -108,9 +124,10 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+LANGUAGE_CODE = 'zh-Hans'
+
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
@@ -123,3 +140,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+os.path.join(BASE_DIR, 'static'),
+)
