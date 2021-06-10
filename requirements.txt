@@ -6,7 +6,7 @@ chardet==3.0.4
 Click==7.0
 configparser==3.5.0
 cpca==0.3.5
-Django==2.1.7
+Django==2.2.24
 django-bootstrap4==0.0.8
 dukpy==0.2.2
 eyes-selenium==3.14.2
